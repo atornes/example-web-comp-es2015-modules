@@ -1,15 +1,19 @@
 # example-web-comp-es2015-modules
 Example of web components using ES2015 Modules (ES2015 Modules, Custom Element, Shadow DOM)
 
+Based on the web components v1 spec. and implements most of the best practices from Google developers posts (https://developers.google.com/web/fundamentals/web-components/best-practices).
+
 Components are created as ES2015 Modules and then imported. Using this method requires a different handling for views.
 
 Some alternatives for handling views:
+* Parsing template strings. (Used in this example project).
 * Manually build view using HTML elements.
-* Parsing template strings.
 * Load and parse views in html files.
 * Third party view libraries.
 
-Based on the web components v1 spec. and implements most of the best practices from Google developers posts (https://developers.google.com/web/fundamentals/web-components/best-practices).
+Another new feature is included in this project: link rel=modulepreload
+This is currently only supported in Chrome 64-beta (Behind flag "Experimental Web Platform Features"). It should typically be used for modules that is required for first paint to faster get first usable paint on screen. Since dependant modules are loaded in a waterfall this can be a great improvement for first loads. 
+You can read more about it here: https://developers.google.com/web/updates/2017/12/modulepreload
 
 Warning: Experimental features. At the time of writing the features used in project is supported in Chrome 63 (You might have to enable "Experimental Web Platform features" in chrome://flags) and enable "Enable ECMAScript 6 modules", "Enable ECMAScript 6 modules dynamic import" in chrome://flags. Not tested in any other browsers.
 
