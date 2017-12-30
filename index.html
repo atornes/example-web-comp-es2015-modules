@@ -3,14 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Example: Web Components Standard</title>
+        <title>Example: Web Components ES2015 Modules</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="import" href="ex-component-one.html">
+        <link rel="modulepreload" href="./ex-component-one.js">
+        <link rel="modulepreload" href="./ex-component-two.js">
     </head>
     <body>
         <ex-component-one title="Component">
             <h2>Slotted content</h2>
         </ex-component-one>
+
+        <script type="module">import './ex-component-one.js';</script>
     </body>
 </html>
