@@ -1,0 +1,30 @@
+{
+  "name": "example-web-comp-standard",
+  "version": "1.0.0",
+  "description": "Example of a standard web component (HTML Imports, Template, Custom Element, Shadow DOM)",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atornes/example-web-comp-standard.git"
+  },
+  "keywords": [
+    "example",
+    "web",
+    "component",
+    "shadow",
+    "dom",
+    "custom",
+    "element",
+    "template",
+    "tag"
+  ],
+  "author": "Anders Tornes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atornes/example-web-comp-standard/issues"
+  },
+  "homepage": "https://github.com/atornes/example-web-comp-standard#readme"
+}
