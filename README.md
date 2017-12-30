@@ -2,6 +2,7 @@
 Example of web components using ES2015 Modules (ES2015 Modules, Custom Element, Shadow DOM)
 
 Components are created as ES2015 Modules and then imported. Using this method requires a different handling for views.
+
 Some alternatives for handling views:
 * Manually build view using HTML elements.
 * Parsing template strings.
