@@ -2,9 +2,9 @@
   "name": "example-web-comp-standard",
   "version": "1.0.0",
   "description": "Example of a standard web component (HTML Imports, Template, Custom Element, Shadow DOM)",
-  "main": " ",
+  "main": "gulp watch",
   "scripts": {
-    "test": " "
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -12,19 +12,19 @@
   },
   "keywords": [
     "example",
-    "web",
-    "component",
-    "shadow",
-    "dom",
-    "custom",
-    "element",
-    "template",
-    "tag"
+    "web component",
+    "shadow dom",
+    "custom element",
+    "template tag"
   ],
   "author": "Anders Tornes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/atornes/example-web-comp-standard/issues"
   },
-  "homepage": "https://github.com/atornes/example-web-comp-standard#readme"
+  "homepage": "https://github.com/atornes/example-web-comp-standard#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.1",
+    "gulp": "^3.9.1"
+  }
 }
